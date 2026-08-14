@@ -19,8 +19,8 @@ Composición de Cuota: Gráfico de barras apiladas (Stacked Bar Chart) que ilust
 5. Comparador Multientidad (Benchmarking)Permite instanciar un DataFrame comparativo con hasta 3 alternativas de crédito diferentes (Bancos vs. Fintechs). Homologa las variables (TNA, comisiones, plazos, impuestos locales) para rankear las opciones en base al CFT Efectivo Anual y el capital neto recibido.  
 Estructura del Código: El script principal (1_main-base.py) está dividido en las siguientes capas lógicas:  Configuración de Constantes: Diccionarios de tasas provinciales y setup de la página.  Core Functions: Funciones puras para matemática financiera (tasa_mensual_desde_tna, calcular_cuota, ratio_endeudamiento_total).  Engine de Costos (configurar_costo, calcular_importe_costo): Sistema modular que permite encender, apagar o modificar la base imponible de cualquier cargo (ej. cobrar sobre saldo deudor vs. capital inicial).
 UI & Sidebar: Recolección de variables macroeconómicas e inputs del usuario.  Main Loop de Amortización: Generación de la tabla mes a mes y los flujos de caja.  Módulos de Visualización (Plotly) y Exportación (CSV).  
-Instalación y Despliegue LocalClonar el repositorio:Bashgit clone https://github.com/tu-usuario/entiende-tu-prestamo.git
-cd entiende-tu-prestamo
+Instalación y Despliegue LocalClonar el repositorio:Bashgit clone [https://github.com/tu-usuario/entiende-tu-prestamo.git](https://github.com/wgekko/app_analisis_prestamos.git)
+cd app_analisis_prestamos
 
 Crear un entorno virtual (Recomendado):Bashpython -m venv venv
 
@@ -38,3 +38,9 @@ se debe crear una carpeta .streamlit y adjunto el una carpeta con el mismo nombr
 
 
 ⚠️ Disclaimer FinancieroE ste proyecto es de código abierto y tiene fines estrictamente educativos y de análisis de datos. Los cálculos impositivos y regulatorios son estimaciones basadas en alícuotas estándar y no constituyen asesoramiento financiero, legal ni contable profesional. Las tasas y normativas del BCRA o entidades provinciales están sujetas a modificaciones sin previo aviso.
+
+video demo 
+
+
+
+
