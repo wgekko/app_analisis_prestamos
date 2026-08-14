@@ -1,3 +1,7 @@
+
+
+
+
 App de Entiende tu Préstamo: Advanced Argentine Loan Simulator:
 Descripción GeneralEntiende tu Préstamo es una aplicación analítica de grado experto desarrollada en Python (Streamlit) para modelar,
 proyectar y auditar estructuras de financiamiento en el mercado argentino.
