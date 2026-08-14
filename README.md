@@ -1,3 +1,7 @@
+
+
+https://github.com/user-attachments/assets/50a855eb-d34d-452a-beaa-21f46049d5f7
+
 Entiende tu Préstamo: Advanced Argentine Loan Simulator:
 Descripción GeneralEntiende tu Préstamo es una aplicación analítica de grado experto desarrollada en Python (Streamlit) para modelar,
 proyectar y auditar estructuras de financiamiento en el mercado argentino.
@@ -41,6 +45,7 @@ se debe crear una carpeta .streamlit y adjunto el una carpeta con el mismo nombr
 
 video demo 
 
+https://github.com/user-attachments/assets/f48eed73-e1a2-4414-b9d1-12647f6ac809
 
 
 
