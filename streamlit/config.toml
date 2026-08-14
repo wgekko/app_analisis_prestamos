@@ -1,0 +1,73 @@
+[theme]
+base = "light"
+primaryColor = "#2563EB"             # Azul principal (blue-600)
+backgroundColor = "#FFFFFF"          # Blanco
+secondaryBackgroundColor = "#F1F5F9" # Gris-azulado muy claro (slate-100)
+codeBackgroundColor = "#F1F5F9"
+textColor = "#1E293B"                # Gris-azulado oscuro (slate-800)
+linkColor = "#2563EB"
+borderColor = "#CBD5E1"              # Gris-azulado claro (slate-300)
+codeTextColor = "#334155"
+showWidgetBorder = true
+showSidebarBorder = true
+baseRadius = "6px"                   # Subtle rounding - professional, not playful
+buttonRadius = "6px"
+
+# Typography - Clean, professional fonts
+font = "'Inter':https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap"
+headingFont = "'Inter':https://fonts.googleapis.com/css2?family=Inter:wght@600;700&display=swap"
+codeFont = "'JetBrains Mono':https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500&display=swap"
+baseFontSize = 15
+baseFontWeight = 400
+codeFontSize = "13px"
+headingFontSizes = ["28px", "22px", "18px", "16px", "14px", "12px"]
+headingFontWeights = [700, 600, 600, 600, 500, 500]
+linkUnderline = false
+
+# Semantic colors for financial indicators
+greenColor = "#10B981"  # Positive/gains
+redColor = "#EF4444"    # Negative/losses
+yellowColor = "#F59E0B" # Warnings/caution
+orangeColor = "#F97316" # Alerts
+blueColor = "#2563EB"   # Informational
+violetColor = "#64748B" # Accent/highlights (gris, no violeta)
+grayColor = "#64748B"   # Neutral/secondary text
+
+# Chart colors - Blue/gray toned, distinguishable palette
+chartCategoricalColors = [
+    "#2563EB",
+    "#64748B",
+    "#3B82F6",
+    "#94A3B8",
+    "#1D4ED8",
+    "#CBD5E1",
+    "#0EA5E9",
+    "#475569",
+]
+
+# Sequential colors for heatmaps (blue gradient)
+chartSequentialColors = [
+    "#F0F9FF",
+    "#E0F2FE",
+    "#BAE6FD",
+    "#7DD3FC",
+    "#38BDF8",
+    "#0EA5E9",
+    "#0284C7",
+    "#0369A1",
+    "#075985",
+    "#0C4A6E",
+]
+
+# Dataframe styling
+dataframeBorderColor = "#CBD5E1"
+dataframeHeaderBackgroundColor = "#F1F5F9"
+
+# Sidebar
+[theme.sidebar]
+backgroundColor = "#F1F5F9"
+secondaryBackgroundColor = "#E2E8F0"
+codeBackgroundColor = "#FFFFFF"
+textColor = "#1E293B"
+borderColor = "#CBD5E1"
+primaryColor = "#2563EB"
